@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "comet",
+  "version": "${version}",
+  "name": "Comet Addon",
+  "description": "A custom Meteor Client addon.",
+  "authors": [
+    "Xryzo11"
+  ],
+  "contact": {
+    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.xryzo11.comet.CometAddon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}", "1.21.7", "1.21.6"],
+    "meteor-client": "*"
+  }
+}
